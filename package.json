@@ -1,0 +1,31 @@
+{
+    "name": "funktion-nodejs-runtime",
+    "version": "0.0.0",
+    "author": "Soam Vasani",
+    "contributors": [
+        {
+            "name": "Soam Vasani",
+            "email": "soamvasani@platform9.com"
+        },
+        {
+            "name": "Funktion Team",
+            "email": "funktionio@googlegroups.com"
+        }
+    ],
+    "description": "NodeJS container for the funktion framework",
+    "engines": {
+        "node": ">=4.2.2"
+    },
+    "dependencies": {
+        "express": "",
+        "minimist": "",
+        "body-parser": "",
+        "morgan": "",
+
+        "co": "~4.6.0",
+        "request": "",
+        "request-promise": "^1.0.2",
+        "mz": "~2.1.0",
+        "underscore": ">=1.8.3"
+    }
+}
