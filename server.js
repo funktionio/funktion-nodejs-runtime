@@ -75,4 +75,8 @@ app.all('/', function (req, res) {
     }
 });
 
+app.all('/healthz', function (req, res) {
+    res.status(200).send("Healthy!");
+});
+
 app.listen(argv.port);
