@@ -10,7 +10,7 @@ const morgan = require('morgan');
 // Command line opts
 const argv = require('minimist')(process.argv.slice(1));
 if (!argv.codepath) {
-    argv.codepath = "/funktion/source.js";
+    argv.codepath = "./funktion/source.js";
     console.log("Codepath defaulting to ", argv.codepath);
 }
 if (!argv.port) {
